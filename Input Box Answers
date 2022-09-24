@@ -1,10 +1,112 @@
-javascript: void
+javascript: void 
 function() {
-  var a = document.getElementsByClassName("menuVirescentOverlord1");
-  for (var b = 0; b < a.length; b++) a[b].hidden = !0;
-  (function() {
-    ans = CurrentProblem.CorrectAnswer;
-    var a = document.createElement("div");
-    a.style.background = "black", a.className = "menuVirescentOverlord1", a.style.textAlign = "center", a.style.transform = "translateX(-50%)", a.style.border = "1px solid magenta", a.style.padding = "1vmin", a.style.position = "fixed", a.style.left = "13%", a.style.borderRadius = "1vmin", a.style.zIndex = "9999", a.textContent += "\u3164Made By Virescent Overlord, The answer is: " + ans, a.style.color = "magenta", document.body.appendChild(a)
+  javascript: var c = document.getElementsByClassName("menuVirescentOverlord2");
+  for (var a = 0; a < c.length; a++) c[a].hidden = !0;
+  (() => {
+    let a = document.createElement("iframe");
+    document.body.append(a), window.alert = a.contentWindow.alert.bind(window), window.prompt = a.contentWindow.prompt.bind(window), window.confirm = a.contentWindow.confirm.bind(window), a.remove()
+  })(),
+  (() => {
+    function a(a) {
+      let b = document.createElement("button");
+      return b.classList.add("cheat"), b.innerText = a, b
+    }
+    let b = document.createElement("style");
+    b.innerHTML = `details > summary {
+    cursor: pointer;
+    transition: 0.15s;
+    list-style: none;
+}
+details > summary:hover {
+    color: hsl(0, 0%, 50%)
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+details summary ~ * {
+    animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+    0%    {opacity: 0; transform: translateY(-10px)}
+    100%  {opacity: 1; transform: translateY(0)}
+}
+.cheat {
+    border: none;
+    background: hsl(0, 0%, 20%);
+    padding: 5px;
+    margin: 3px;
+    width: 60%;
+    color: hsl(0, 0%, 100%);
+    transition: 0.2s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cheat:hover {
+    background: hsl(0, 0%, 30%);
+}`;
+    const c = document.createElement("div");
+    c.appendChild(b), c.zIndex = "999999999999", c.className = "menuVirescentOverlord2", c.style.width = "400px", c.style.background = "hsl(0, 0%, 10%)", c.style.borderRadius = "10px", c.style.position = "absolute", c.style.textAlign = "center", c.style.fontFamily = "Nunito", c.style.color = "white", c.style.overflow = "hidden", c.style.top = "28%", c.style.left = "35%";
+    var d = 0,
+      f = 0,
+      g = 0,
+      h = 0;
+    c.onmousedown = (a = window.event) => {
+      a.preventDefault(), g = a.clientX, h = a.clientY, document.onmouseup = () => {
+        document.onmouseup = null, document.onmousemove = null
+      }, document.onmousemove = a => {
+        a = a || window.event, a.preventDefault(), d = g - a.clientX, f = h - a.clientY, g = a.clientX, h = a.clientY, c.style.top = c.offsetTop - f + "px", c.style.left = c.offsetLeft - d + "px"
+      }
+    };
+    let j = document.createElement("div");
+    c.appendChild(j), j.style.width = "100%", j.style.height = "35px", j.style.paddingTop = "2px", j.style.fontSize = "1.5rem", j.style.textAlign = "center", j.innerHTML = "Moby Max Hack", j.zIndex = "9999";
+    let k, l = document.createElement("button");
+    j.appendChild(l), l.style.background = "#444444", l.style.height = "45px", l.style.width = "45px", l.style.border = "none", l.style.cursor = "pointer", l.style.position = "absolute", l.style.top = "-10px", l.style.right = "-10px", l.style.fontSize = "1.5rem", l.style.borderRadius = "10px", l.style.fontFamily = "Nunito", l.style.fontWeight = "bolder", l.style.paddingTop = "10px", l.style.paddingRight = "15px", l.innerText = "\u24E7", l.onclick = () => {
+      c.remove(), clearInterval(k), removeEventListener("keypress", toggleHidden)
+    };
+    let m = document.createElement("button");
+    j.appendChild(m), m.style.background = "#444444", m.style.height = "45px", m.style.width = "45px", m.style.border = "none", m.style.cursor = "pointer", m.style.position = "absolute", m.style.top = "-10px", m.style.left = "-10px", m.style.fontSize = "1.5rem", m.style.borderRadius = "10px", m.style.fontFamily = "Nunito", m.style.fontWeight = "bolder", m.style.paddingTop = "10px", m.style.paddingLeft = "15px", m.innerText = "-", m.onclick = () => {
+      n.hidden = !n.hidden
+    };
+    let n = document.createElement("div"),
+      o = document.createElement("div");
+    n.appendChild(o), c.appendChild(n), o.innerHTML = "Made By Virescent Overlord", o.style.display = "block", o.style.margin = "10px", o.style.minHeight = "70px";
+    let p = document.createElement("span");
+    o.appendChild(p), document.body.append(c);
+    let q = document.createElement("div");
+    n.appendChild(q), q.style.fontSize = "0.9rem", q.style.paddingBottom = "5px";
+    let r = {
+        global: {
+          "Numeric Text Box Hack": () => {
+            javascript: void
+            function() {
+              for (var c = document.getElementsByClassName("menuVirescentOverlord1"), a = 0; a < c.length; a++) c[a].hidden = !0;
+              (function() {
+                ans = CurrentProblem.CorrectAnswer;
+                var b = document.createElement("div");
+                b.style.background = "black", b.className = "menuVirescentOverlord1", b.style.textAlign = "center", b.style.transform = "translateX(-50%)", b.style.border = "1px solid magenta", b.style.padding = "1vmin", b.style.position = "fixed", b.style.left = "13%", b.style.borderRadius = "1vmin", b.style.zIndex = "9999", b.textContent += "\u3164Made By Virescent Overlord, The answer is: " + ans, b.style.color = "magenta", document.body.appendChild(b)
+              })()
+            }()
+          },
+          "Multiple Choice Hack": () => {
+          var c = document.getElementsByClassName("menuVirescentOverlord1");
+  for (var a = 0; a < c.length; a++) c[a].hidden = !0;
+            javascript: ans = CurrentProblem.CorrectAnswer;
+            var c = document.getElementsByClassName("menuVirescentOverlord1");
+  for (var a = 0; a < c.length; a++) c[a].hidden = !0;
+            for (var c = document.getElementsByTagName("input"), d = 0; d < c.length; d++) c[d].setAttribute("data-name", ans);document.getElementsByTagName("input")[0].click();
+doNext(event);
+          }
+        }
+      },
+      s = document.createElement("details");
+    s.innerHTML = `<summary style="padding: 10px; font-size: 1.5em; font-weight: bolder">Cheats ↴</summary>`;
+    for (var t = 0; t < Object.keys(r.global).length; t++) {
+      let b = a(Object.keys(r.global)[t]);
+      b.onclick = r.global[Object.keys(r.global)[t]], s.appendChild(b)
+    }
+    s.open = !0, s.style.paddingBottom = "10px", o.appendChild(s);
+    let e = document.createElement("div");
+    o.appendChild(e)
   })()
 }();
