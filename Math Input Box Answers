@@ -1,0 +1,10 @@
+javascript: void
+function() {
+  var a = document.getElementsByClassName("menuVirescentOverlord1");
+  for (var b = 0; b < a.length; b++) a[b].hidden = !0;
+  (function() {
+    ans = CurrentProblem.CorrectAnswer;
+    var a = document.createElement("div");
+    a.style.background = "black", a.className = "menuVirescentOverlord1", a.style.textAlign = "center", a.style.transform = "translateX(-50%)", a.style.border = "1px solid magenta", a.style.padding = "1vmin", a.style.position = "fixed", a.style.left = "13%", a.style.borderRadius = "1vmin", a.style.zIndex = "9999", a.textContent += "\u3164Made By Virescent Overlord, The answer is: " + ans, a.style.color = "magenta", document.body.appendChild(a)
+  })()
+}();
