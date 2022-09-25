@@ -1,0 +1,10 @@
+  let i = document.createElement("div");
+  a.appendChild(i), i.style.width = "100%", i.style.height = "35px", i.style.paddingTop = "2px", i.style.fontSize = "1.5rem", i.style.textAlign = "center", i.innerHTML = "Moby Max Hack", i.zIndex = "9999";
+  let t, j = document.createElement("button");
+  i.appendChild(j), j.style.background = "#444444", j.style.height = "45px", j.style.width = "45px", j.style.border = "none", j.style.cursor = "pointer", j.style.position = "absolute", j.style.top = "-10px", j.style.right = "-10px", j.style.fontSize = "1.5rem", j.style.borderRadius = "10px", j.style.fontFamily = "Nunito", j.style.fontWeight = "bolder", j.style.paddingTop = "10px", j.style.paddingRight = "15px", j.innerText = "\u24E7", j.onclick = () => {
+    a.remove(), clearInterval(t), removeEventListener("keypress", toggleHidden)
+  };
+  let k = document.createElement("button");
+  i.appendChild(k), k.style.background = "#444444", k.style.height = "45px", k.style.width = "45px", k.style.border = "none", k.style.cursor = "pointer", k.style.position = "absolute", k.style.top = "-10px", k.style.left = "-10px", k.style.fontSize = "1.5rem", k.style.borderRadius = "10px", k.style.fontFamily = "Nunito", k.style.fontWeight = "bolder", k.style.paddingTop = "10px", k.style.paddingLeft = "15px", k.innerText = "-", k.onclick = () => {
+    l.hidden = !l.hidden
+  };
