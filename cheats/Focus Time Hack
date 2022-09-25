@@ -1,0 +1,12 @@
+ function a(a) {
+          return 9 < a ? a : "0" + a
+        }
+        alert("The Method used for this hack was patched almost instantly after i initialy released it. if you want to help me create a new one, please do so. (Github: VirescentOverlord)");
+        let b = document.createElement("div");
+        b.innerHTML = "Time Hacked <span id=\"minutes\"></span>:<span id=\"seconds\"></span>";
+        let c = document.createElement("span");
+        c.id = "minutes", document.body.appendChild(c);
+        var d = 0;
+        setInterval(function() {
+          document.getElementById("seconds").innerHTML = a(++d % 60), document.getElementById("minutes").innerHTML = a(parseInt(d / 60, 10))
+        }, 1e3), m.appendChild(b)
