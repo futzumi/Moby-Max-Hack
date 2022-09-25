@@ -17,4 +17,4 @@
     }, document.onmousemove = b => {
       b = b || window.event, b.preventDefault(), e = g - b.clientX, f = h - b.clientY, g = b.clientX, h = b.clientY, a.style.top = a.offsetTop - f + "px", a.style.left = a.offsetLeft - e + "px"
     }
-  };
+  }})()
