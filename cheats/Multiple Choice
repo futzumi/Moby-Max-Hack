@@ -1,0 +1,9 @@
+ for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
+        javascript: ans = CurrentProblem.CorrectAnswer;
+        try {
+          let b = document.getElementsByClassName("ms-pbl-manchoice ms-pbl-manchoice-checkbox ms-pbl-manchoice-radio-multistate")[0];
+          b.setAttribute("data-name", ans), b.click()
+        } catch (a) {}
+        for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
+        for (var a = document.getElementsByTagName("input"), c = 0; c < a.length; c++) a[c].setAttribute("data-name", ans);
+        document.getElementsByTagName("input")[0].click(), doNext(event)
