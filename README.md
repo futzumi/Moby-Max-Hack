@@ -5,4 +5,6 @@
 <br /> 
 Tutorial:
 <br /> 
-Go to #bookmarklet.js
+Go to bookmarklet.js, then press the copy button. Once coppied, go to your bookmarks bar, right click, then press paste. 
+<br />
+Now you can just go to MobyMax and press the bookmark you just adden and it should work.
