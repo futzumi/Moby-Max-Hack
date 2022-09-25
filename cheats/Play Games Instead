@@ -1,0 +1,34 @@
+
+        javascript: var d = document.createElement("iframe");
+        let a = prompt("What Game\n\nOptions: Duck Life(DL), or Drift Boss(DB)");
+        "DL" == a ? d.src = "https://www.mathplayground.com/duck4/index.html" : "DB" == a ? d.src = "https://www.mathplayground.com/drift-boss-v3/index.html" : alert("Invalid Responce"),
+        d.style.position = "relative",
+        d.style.zIndex = "999999999999",
+        d.id = "virescentOverlord1",
+        document.body.appendChild(d);
+        var e = document.createElement("div");e.innerHTML = "\uD80C\uDC79",
+        e.style.zIndex = "999999999999999",
+        e.style.cursor = "pointer",
+        e.style.position = "fixed",
+        e.style.top = "0%",
+        e.style.left = "20%",
+        e.style.color = "white",
+        e.style.background = "transparent",
+        e.onclick = function() {
+          document.getElementById("virescentOverlord1").height = "600px", document.getElementById("virescentOverlord1").width = "1200px", e.remove()
+        },
+        document.body.appendChild(e);
+        var c = document.createElement("div");c.innerHTML = "\u24E7",
+        c.style.zIndex = "9999999999999",
+        c.style.cursor = "pointer",
+        c.style.width = "300",
+        c.style.height = "300",
+        c.style.position = "fixed",
+        c.style.top = "1%",
+        c.style.left = "1%",
+        c.style.color = "white",
+        c.style.background = "transparent",
+        c.onclick = function() {
+          c.remove(), d.remove(), e.remove()
+        },
+        document.body.appendChild(c)
