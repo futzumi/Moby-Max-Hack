@@ -1,2 +1,3 @@
 # Moby-Max-Hack
-The First released mobymax hack ever.
+The first MobyMax hack ever published
+
