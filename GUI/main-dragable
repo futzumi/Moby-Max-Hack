@@ -1,0 +1,20 @@
+(() => {
+  function b(b) {
+    let c = document.createElement("button");
+    return c.classList.add("cheat"), c.innerText = b, c
+  }
+  let d = document.createElement("style");
+  d.innerHTML = `details > summary {    cursor: pointer;    transition: 0.15s;    list-style: none;}details > summary:hover {    color: hsl(0, 0%, 50%)}details > summary::-webkit-details-marker {    display: none;}details summary ~ * {    animation: sweep .5s ease-in-out;}@keyframes sweep {    0%    {opacity: 0; transform: translateY(-10px)}    100%  {opacity: 1; transform: translateY(0)}}.cheat {    border: none;    background: hsl(0, 0%, 20%);    padding: 5px;    margin: 3px;    width: 60%;    color: hsl(0, 0%, 100%);    transition: 0.2s;    border-radius: 5px;    cursor: pointer;}.cheat:hover {    background: hsl(0, 0%, 30%);}`;
+  const a = document.createElement("div");
+  a.appendChild(d), a.style.zIndex = "999999999999999999999999999999999", a.className = "menuVirescentOverlord2", a.style.width = "400px", a.style.background = "hsl(0, 0%, 10%)", a.style.borderRadius = "10px", a.style.position = "absolute", a.style.textAlign = "center", a.style.fontFamily = "Nunito", a.style.color = "white", a.style.overflow = "hidden", a.style.top = "28%", a.style.left = "35%";
+  var e = 0,
+    f = 0,
+    g = 0,
+    h = 0;
+  a.onmousedown = (b = window.event) => {
+    b.preventDefault(), g = b.clientX, h = b.clientY, document.onmouseup = () => {
+      document.onmouseup = null, document.onmousemove = null
+    }, document.onmousemove = b => {
+      b = b || window.event, b.preventDefault(), e = g - b.clientX, f = h - b.clientY, g = b.clientX, h = b.clientY, a.style.top = a.offsetTop - f + "px", a.style.left = a.offsetLeft - e + "px"
+    }
+  };
