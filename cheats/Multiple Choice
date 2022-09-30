@@ -1,4 +1,5 @@
- for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
+
+        for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
         javascript: ans = CurrentProblem.CorrectAnswer;
         try {
           let b = document.getElementsByClassName("ms-pbl-manchoice ms-pbl-manchoice-checkbox ms-pbl-manchoice-radio-multistate")[0];
