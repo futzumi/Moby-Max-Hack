@@ -2,12 +2,12 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
 (() => {
   function b(b) {
     let c = document.createElement("button");
-    return c.classList.add("cheat"), c.innerText = b, c
+    return c.classList.add("cheat"), c.style.font = "arial", c.innerText = b, c
   }
   let d = document.createElement("style");
-  d.innerHTML = `details > summary {    cursor: pointer;    transition: 0.15s;    list-style: none;}details > summary:hover {    color: hsl(0, 0%, 50%)}details > summary::-webkit-details-marker {    display: none;}details summary ~ * {    animation: sweep .5s ease-in-out;}@keyframes sweep {    0%    {opacity: 0; transform: translateY(-10px)}    100%  {opacity: 1; transform: translateY(0)}}.cheat {    border: none;    background: hsl(0, 0%, 20%);    padding: 5px;    margin: 3px;    width: 60%;    color: hsl(0, 0%, 100%);    transition: 0.2s;    border-radius: 5px;    cursor: pointer;}.cheat:hover {    background: hsl(0, 0%, 30%);}`;
+  d.innerHTML = `details > summary {    cursor: pointer;    transition: 0.15s;    list-style: none;}details > summary:hover {    color: #2596be}details > summary::-webkit-details-marker {    display: none;}details summary ~ * {    animation: sweep .5s ease-in-out;}@keyframes sweep {    0%    {opacity: 0; transform: translateY(-10px)}    100%  {opacity: 1; transform: translateY(0)}}.cheat {    border: none;    background: hsl(0, 0%, 20%);    padding: 5px;    margin: 3px;    width: 60%;    color: hsl(0, 0%, 100%);    transition: 0.2s;    border-radius: 5px;    cursor: pointer;}.cheat:hover {    background: hsl(0, 0%, 30%);}`;
   const a = document.createElement("div");
-  a.appendChild(d), a.style.zIndex = "999999999999999999999999999999999", a.className = "menuVirescentOverlord2", a.style.width = "400px", a.style.background = "hsl(0, 0%, 10%)", a.style.borderRadius = "10px", a.style.position = "absolute", a.style.textAlign = "center", a.style.fontFamily = "Nunito", a.style.color = "white", a.style.overflow = "hidden", a.style.top = "28%", a.style.left = "35%";
+  a.appendChild(d), a.style.zIndex = "999999999999999999999999999999999", a.className = "menuVirescentOverlord2", a.style.width = "400px", a.style.background = "hsl(0, 0%, 10%)", a.style.borderRadius = "10px", a.style.position = "absolute", a.style.textAlign = "center", a.style.fontFamily = "arial", a.style.color = "white", a.style.overflow = "hidden", a.style.top = "28%", a.style.left = "35%";
   var e = 0,
     f = 0,
     g = 0,
@@ -39,13 +39,10 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
   let p = {
     global: {
       "Numeric Text Box Hack": () => {
-        
-          for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
-          (function() {
-            ans = CurrentProblem.CorrectAnswer;
-            var b = document.createElement("div");
-            b.style.background = "black", b.className = "menuVirescentOverlord1", b.style.textAlign = "center", b.style.transform = "translateX(-50%)", b.style.border = "1px solid magenta", b.style.padding = "1vmin", b.style.position = "fixed", b.style.left = "13%", b.style.borderRadius = "1vmin", b.style.zIndex = "9999", b.textContent += "\u3164Made By Virescent Overlord, The answer is: " + ans, b.style.color = "magenta", document.body.appendChild(b)
-         })
+        for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
+        ans = CurrentProblem.CorrectAnswer;
+        var b = document.createElement("div");
+        b.style.background = "black", b.className = "menuVirescentOverlord1", b.style.textAlign = "center", b.style.transform = "translateX(-50%)", b.style.border = "1px solid white", b.style.padding = "1vmin", b.style.position = "fixed", b.style.left = "50%", b.style.borderRadius = "1vmin", b.style.zIndex = "9999", b.textContent += "\u3164Made By Virescent Overlord, The solution is: " + ans, b.style.color = "white", document.body.appendChild(b)
       },
       "Multiple Choice Hack": () => {
         for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
@@ -60,8 +57,8 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
       },
       "Play Games Instead": () => {
         javascript: var d = document.createElement("iframe");
-        let a = prompt("What Game\n\nOptions: Duck Life(DL), or Drift Boss(DB)");
-        "DL" == a ? d.src = "https://www.mathplayground.com/duck4/index.html" : "DB" == a ? d.src = "https://www.mathplayground.com/drift-boss-v3/index.html" : alert("Invalid Responce"),
+        let a = prompt("What Game\n\nOptions: Duck Life(DL), or Drift Boss(DB), Vex 5(V5), Retro Bowl(RB)");
+        "DL" == a ? d.src = "https://www.mathplayground.com/duck4/index.html" : "DB" == a ? d.src = "https://www.mathplayground.com/drift-boss-v3/index.html" : "V5" == a ? d.src = "https://vex5.endinternetcensorship.repl.co/" : "RB" == a ? d.src = "https://retro-bowl.endinternetcensorship.repl.co/" : alert("Not a valid responce!"),
         d.style.position = "relative",
         d.style.zIndex = "999999999999",
         d.id = "virescentOverlord1",
@@ -72,7 +69,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
         e.style.position = "fixed",
         e.style.top = "0%",
         e.style.left = "20%",
-        e.style.color = "white",
+        e.style.color = "red",
         e.style.background = "transparent",
         e.onclick = function() {
           document.getElementById("virescentOverlord1").height = "600px", document.getElementById("virescentOverlord1").width = "1200px", e.remove()
@@ -86,12 +83,17 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
         c.style.position = "fixed",
         c.style.top = "1%",
         c.style.left = "1%",
-        c.style.color = "white",
+        c.style.color = "red",
         c.style.background = "transparent",
         c.onclick = function() {
           c.remove(), d.remove(), e.remove()
-        },
+        }
         document.body.appendChild(c)
+        if (d.src == "") {
+          d.remove();
+          e.remove();
+          c.remove();
+        }
       },
       "Focus Time Hack": () => {
         function a(a) {
