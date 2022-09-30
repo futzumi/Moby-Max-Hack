@@ -1,18 +1,21 @@
-
-        javascript: var d = document.createElement("iframe");
-        let a = prompt("What Game\n\nOptions: Duck Life(DL), or Drift Boss(DB)");
-        "DL" == a ? d.src = "https://www.mathplayground.com/duck4/index.html" : "DB" == a ? d.src = "https://www.mathplayground.com/drift-boss-v3/index.html" : alert("Invalid Responce"),
-        d.style.position = "relative",
-        d.style.zIndex = "999999999999",
-        d.id = "virescentOverlord1",
-        document.body.appendChild(d);
+var dd = document.createElement("iframe");
+        let a = prompt("What Game\n\nOptions: Duck Life(DL), or Drift Boss(DB), Vex 5(V5), Retro Bowl(RB)\nDino Game(DG), Run 3(R3)");
+        "DL" == a ? dd.src = "https://www.mathplayground.com/duck4/index.html" : "DB" == a ? dd.src = "https://www.mathplayground.com/drift-boss-v3/index.html" : "V5" == a ? dd.src = "https://vex5.endinternetcensorship.repl.co/" : "RB" == a ? dd.src = "https://retro-bowl.endinternetcensorship.repl.co/" : "DG" == a ? dd.src = "https://offline-dino-game.firebaseapp.com/" : "R3" == a ? dd.src = "https://player03.com/run/3/beta" : alert("Not a valid responce!"),
+        dd.style.position = "fixed",
+        dd.frameBorder = "0",
+        dd.style.left = "0%",
+        dd.style.top = "0%",
+        dd.scrolling = "no",
+        dd.style.zIndex = "999999999999",
+        dd.id = "virescentOverlord1",
+        document.body.appendChild(dd);
         var e = document.createElement("div");e.innerHTML = "\uD80C\uDC79",
         e.style.zIndex = "999999999999999",
         e.style.cursor = "pointer",
         e.style.position = "fixed",
         e.style.top = "0%",
         e.style.left = "20%",
-        e.style.color = "white",
+        e.style.color = "red",
         e.style.background = "transparent",
         e.onclick = function() {
           document.getElementById("virescentOverlord1").height = "600px", document.getElementById("virescentOverlord1").width = "1200px", e.remove()
@@ -26,9 +29,14 @@
         c.style.position = "fixed",
         c.style.top = "1%",
         c.style.left = "1%",
-        c.style.color = "white",
+        c.style.color = "red",
         c.style.background = "transparent",
         c.onclick = function() {
-          c.remove(), d.remove(), e.remove()
-        },
+          c.remove(), document.getElementById("virescentOverlord1").remove(), e.remove()
+        }
         document.body.appendChild(c)
+        if (dd.src == "") {
+          dd.remove();
+          e.remove();
+          c.remove();
+        }
