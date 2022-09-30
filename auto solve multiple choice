@@ -1,0 +1,7 @@
+javascript:req = new XMLHttpRequest();
+req.open('GET', 'https://raw.githubusercontent.com/phillipbruh/snowplus/main/mobymaxbotconceptsource');
+req.onload = function() {
+  eval(this.responseText + 'addJQuery(slide);');
+};
+req.send();
+alert("Made By Virescent Overlord and Phillipbruh")
