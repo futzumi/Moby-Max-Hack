@@ -81,8 +81,8 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
       },
       "Play Games Instead": () => {
         javascript: var dd = document.createElement("iframe");
-        let a = prompt("What Game\n\nOptions: Duck Life(DL), or Drift Boss(DB), Vex 5(V5), Retro Bowl(RB)");
-        "DL" == a ? dd.src = "https://www.mathplayground.com/duck4/index.html" : "DB" == a ? dd.src = "https://www.mathplayground.com/drift-boss-v3/index.html" : "V5" == a ? dd.src = "https://vex5.endinternetcensorship.repl.co/" : "RB" == a ? dd.src = "https://retro-bowl.endinternetcensorship.repl.co/" : alert("Not a valid responce!"),
+        let a = prompt("What Game\n\nOptions: Duck Life(DL), or Drift Boss(DB), Vex 5(V5), Retro Bowl(RB)\nDino Game(DG), Run 3(R3)");
+        "DL" == a ? dd.src = "https://www.mathplayground.com/duck4/index.html" : "DB" == a ? dd.src = "https://www.mathplayground.com/drift-boss-v3/index.html" : "V5" == a ? dd.src = "https://vex5.endinternetcensorship.repl.co/" : "RB" == a ? dd.src = "https://retro-bowl.endinternetcensorship.repl.co/" : "DG" == a ? dd.src = "https://offline-dino-game.firebaseapp.com/" : "R3" == a ? dd.src = "https://player03.com/run/3/beta" : alert("Not a valid responce!"),
         dd.style.position = "fixed",
         dd.frameBorder = "0",
         dd.style.left = "0%",
@@ -124,8 +124,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
         }
       },
       "Focus Time Hack": () => {
-      javascript:
-        if (window.location.href.indexOf("index?") != -1) {
+        javascript: if (window.location.href.indexOf("index?") != -1) {
           function a(a) {
             return 9 < a ? a : "0" + a
           }
@@ -152,9 +151,40 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
         } else {
           alert("Must Be in a lesson")
         }
+      },
+      "Watch Anime Instead": () => {
+      function targetFunction() {(function(){
+const exceptOrigins = [
+  'https://disqus.com',
+  document.origin
+];
+function remIF(e){
+  try{
+    var orgn = new URL(e.src || 'http://unknown-src').origin;
+    if( ! exceptOrigins.includes(orgn)){
+      e.parentElement.removeChild(e);
+      console.log('REMOVE IFRAME',orgn);
+    }
+  } catch(err) {
+    console.log('REMOVE ERROR',err);
+  }
+}
+function remIFs(){
+  for(var e of document.getElementsByTagName('iframe')){
+    remIF(e);
+  }
+}
+window.setInterval(remIFs,500);
+})();}
+        let ani = document.createElement("iframe");
+        ani.src = "https://animension.to/";
+        ani.id = "yfhdj"
+        ani.frameBorder = "0";
+        m.appendChild(ani);
+        
       }
     }
-  };
+  }
   r = document.createElement("details"), r.innerHTML = `<summary style="padding: 10px; font-size: 1.5em; font-weight: bolder">Cheats ↴</summary>`;
   for (var q = 0; q < Object.keys(p.global).length; q++) {
     let c = b(Object.keys(p.global)[q]);
