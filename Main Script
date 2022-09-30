@@ -114,7 +114,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
         c.style.color = "red",
         c.style.background = "transparent",
         c.onclick = function() {
-          c.remove(), d.remove(), e.remove()
+          c.remove(), dd.remove(), e.remove()
         }
         document.body.appendChild(c)
         if (dd.src == "") {
