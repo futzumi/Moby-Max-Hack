@@ -6,6 +6,30 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
   }
   let d = document.createElement("style");
   d.innerHTML = `details > summary {    cursor: pointer;    transition: 0.15s;    list-style: none;}details > summary:hover {    color: #2596be}details > summary::-webkit-details-marker {    display: none;}details summary ~ * {    animation: sweep .5s ease-in-out;}@keyframes sweep {    0%    {opacity: 0; transform: translateY(-10px)}    100%  {opacity: 1; transform: translateY(0)}}.cheat {    border: none;    background: hsl(0, 0%, 20%);    padding: 5px;    margin: 3px;    width: 60%;    color: hsl(0, 0%, 100%);    transition: 0.2s;    border-radius: 5px;    cursor: pointer;}.cheat:hover {    background: hsl(0, 0%, 30%);}`;
+  let da = document.createElement("style");
+  da.innerHTML = `body {
+  background-color: #333;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text-rainbow-animation {
+  font-family:arial black;
+  font-size:15px;
+  background-image: 
+    linear-gradient(to right, #038ABA,#6636B3, #D05194); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 35s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}`
   const a = document.createElement("div");
   a.appendChild(d), a.style.zIndex = "999999999999999999999999999999999", a.className = "menuVirescentOverlord2", a.style.width = "400px", a.style.background = "hsl(0, 0%, 10%)", a.style.borderRadius = "10px", a.style.position = "absolute", a.style.textAlign = "center", a.style.fontFamily = "arial", a.style.color = "white", a.style.overflow = "hidden", a.style.top = "28%", a.style.left = "35%";
   var e = 0,
@@ -20,18 +44,18 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
     }
   };
   let i = document.createElement("div");
-  a.appendChild(i), i.style.width = "100%", i.style.height = "35px", i.style.paddingTop = "2px", i.style.fontSize = "1.5rem", i.style.textAlign = "center", i.innerHTML = "Moby Max Hack", i.zIndex = "9999";
+  a.appendChild(i), i.style.width = "100%", i.style.height = "35px", i.style.paddingTop = "2px", i.style.fontSize = "1.2rem", i.style.textAlign = "center", i.innerHTML = "Moby Max Hack", i.zIndex = "9999", i.style.fontFamily = 'arial black';
   let t, j = document.createElement("button");
   i.appendChild(j), j.style.background = "#444444", j.style.height = "45px", j.style.width = "45px", j.style.border = "none", j.style.cursor = "pointer", j.style.position = "absolute", j.style.top = "-10px", j.style.right = "-10px", j.style.fontSize = "1.5rem", j.style.borderRadius = "10px", j.style.fontFamily = "Nunito", j.style.fontWeight = "bolder", j.style.paddingTop = "10px", j.style.paddingRight = "15px", j.innerText = "\u24E7", j.onclick = () => {
-    a.remove(), clearInterval(t), removeEventListener("keypress", toggleHidden)
+    a.remove(), clearInterval(t)
   };
   let k = document.createElement("button");
   i.appendChild(k), k.style.background = "#444444", k.style.height = "45px", k.style.width = "45px", k.style.border = "none", k.style.cursor = "pointer", k.style.position = "absolute", k.style.top = "-10px", k.style.left = "-10px", k.style.fontSize = "1.5rem", k.style.borderRadius = "10px", k.style.fontFamily = "Nunito", k.style.fontWeight = "bolder", k.style.paddingTop = "10px", k.style.paddingLeft = "15px", k.innerText = "-", k.onclick = () => {
-    l.hidden = !l.hidden
+    l.hidden = !l.hidden;
   };
   let l = document.createElement("div"),
     m = document.createElement("div");
-  l.appendChild(m), a.appendChild(l), m.innerHTML = "Made By Virescent Overlord", m.style.display = "block", m.style.margin = "10px", m.style.minHeight = "70px";
+  l.appendChild(m), a.appendChild(l), m.innerHTML = `<div class="text-rainbow-animation"> Made By Virescent Overlord</div>`, m.style.display = "block", m.style.margin = "10px", m.style.minHeight = "70px";
   let n = document.createElement("span");
   m.appendChild(n), document.body.append(a);
   let o = document.createElement("div");
@@ -96,15 +120,16 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
         }
       },
       "Focus Time Hack": () => {
-      if (window.location.href.indexOf("index?") != -1) {
+        if (window.location.href.indexOf("index?") != -1) {
           function a(a) {
             return 9 < a ? a : "0" + a
           }
+
           function refreshTimer() {
-              TimerClass.prototype.timerPause = function() {
-                this.studentIdle = false;
-                }
-}
+            TimerClass.prototype.timerPause = function() {
+              this.studentIdle = false;
+            }
+          }
           setTimeout(refreshTimer, 30000);
           setInterval(this.studentIdle = false, 1);
           setInterval(this.canPause = false, 1);
@@ -130,5 +155,5 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
     let c = b(Object.keys(p.global)[q]);
     c.onclick = p.global[Object.keys(p.global)[q]], r.appendChild(c)
   }
-  r.open = !0, r.style.paddingBottom = "10px", m.appendChild(r)
+  r.open = !0, r.style.paddingBottom = "10px", m.appendChild(r), m.appendChild(da);
 })();
