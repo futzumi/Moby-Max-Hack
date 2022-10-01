@@ -5,7 +5,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
     return c.classList.add("cheat"), c.style.font = "arial", c.innerText = b, c
   }
   let d = document.createElement("style");
-  d.innerHTML = `details > summary {    cursor: pointer;    transition: 0.15s;    list-style: none;}details > summary:hover {    color: #2596be}details > summary::-webkit-details-marker {    display: none;}details summary ~ * {    animation: sweep .5s ease-in-out;}@keyframes sweep {    0%    {opacity: 0; transform: translateY(-10px)}    100%  {opacity: 1; transform: translateY(0)}}.cheat {    border: none;    background: hsl(0, 0%, 20%);    padding: 5px;    margin: 3px;    width: 60%;    color: hsl(0, 0%, 100%);    transition: 0.2s;    border-radius: 5px;    cursor: pointer;}.cheat:hover {    background: hsl(0, 0%, 30%);}`;
+  d.innerHTML = `details > summary {    cursor: pointer;    transition: 0.15s;    list-style: none;}details > summary:hover {    color: #2596be}details > summary::-webkit-details-marker {    display: none;}details summary ~ * {    animation: sweep .5s ease-in-out;}@keyframes sweep {    0%    {opacity: 0; transform: translateY(-10px)}    100%  {opacity: 1; transform: translateY(0)}}.cheat {    border: none;    background: hsl(0, 0%, 20%);    padding: 5px;    margin: 3px;    width: 60%;    color: hsl(0, 0%, 100%);    transition: 0.2s;    border-radius: 5px;    cursor: pointer;}.cheat:hover {    background: hsl(0, 0%, 30%);}` ;
   let da = document.createElement("style");
   da.innerHTML = `body {
   background-color: #333;
@@ -29,7 +29,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
     to {
         background-position: 4500vh;
     }
-}`
+}`;
   const a = document.createElement("div");
   a.appendChild(d), a.style.zIndex = "999999999999999999999999999999999", a.className = "menuVirescentOverlord2", a.style.width = "400px", a.style.background = "hsl(0, 0%, 10%)", a.style.borderRadius = "10px", a.style.position = "absolute", a.style.textAlign = "center", a.style.fontFamily = "arial", a.style.color = "white", a.style.overflow = "hidden", a.style.top = "28%", a.style.left = "35%";
   var e = 0,
@@ -180,7 +180,38 @@ window.setInterval(remIFs,500);
         ani.src = "https://animension.to/";
         ani.id = "yfhdj"
         ani.frameBorder = "0";
-        m.appendChild(ani);
+        ani.style.position = 'absolute';
+        ani.style.left = '0';
+        ani.style.top = '0';
+        ani.style.zIndex = 9999999999;
+        ani.id = "virescentOverlord11";
+        document.body.appendChild(ani);
+        var e = document.createElement("div");e.innerHTML = "\uD80C\uDC79",
+        e.style.zIndex = "999999999999999",
+        e.style.cursor = "pointer",
+        e.style.position = "fixed",
+        e.style.top = "-1%",
+        e.style.left = "20%",
+        e.style.color = "red",
+        e.style.background = "transparent",
+        e.onclick = function() {
+          document.getElementById("virescentOverlord11").height = "600px", document.getElementById("virescentOverlord11").width = "1200px", e.remove()
+        },
+        document.body.appendChild(e);
+        var fa = document.createElement("div");fa.innerHTML = "\u24E7",
+        fa.style.zIndex = "9999999999999",
+        fa.style.cursor = "pointer",
+        fa.style.width = "300",
+        fa.style.height = "300",
+        fa.style.position = "fixed",
+        fa.style.top = "0",
+        fa.style.left = "0",
+        fa.style.color = "red",
+        fa.style.background = "transparent",
+        fa.onclick = function() {
+          fa.remove(), ani.remove(), e.remove()
+        }
+        document.body.appendChild(fa);
         
       }
     }
@@ -189,6 +220,6 @@ window.setInterval(remIFs,500);
   for (var q = 0; q < Object.keys(p.global).length; q++) {
     let c = b(Object.keys(p.global)[q]);
     c.onclick = p.global[Object.keys(p.global)[q]], r.appendChild(c)
-  }
+  } m.style.left = "10px"
   r.open = !0, r.style.paddingBottom = "10px", m.appendChild(r), m.appendChild(da);
 })();
