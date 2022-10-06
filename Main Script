@@ -62,7 +62,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
   l.appendChild(o), o.style.fontSize = "0.9rem", o.style.paddingBottom = "5px";
   let p = {
     global: {
-      "Numeric Text Box Hack": () => {
+      "Fill in the blank": () => {
         for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
         ans = CurrentProblem.CorrectAnswer;
         var b = document.createElement("div");
