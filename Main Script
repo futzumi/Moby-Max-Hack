@@ -1,13 +1,13 @@
 for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d < e.length; d++) e[d].hidden = !0;
 (() => {
-    function b(b) {
-      let c = document.createElement("button");
-      return c.classList.add("cheat"), c.style.font = "arial", c.innerText = b, c
-    }
-    let d = document.createElement("style");
-    d.innerHTML = `details > summary {    cursor: pointer;    transition: 0.15s;    list-style: none;}details > summary:hover {    color: #2596be}details > summary::-webkit-details-marker {    display: none;}details summary ~ * {    animation: sweep .5s ease-in-out;}@keyframes sweep {    0%    {opacity: 0; transform: translateY(-10px)}    100%  {opacity: 1; transform: translateY(0)}}.cheat {    border: none;    background: hsl(0, 0%, 20%);    padding: 5px;    margin: 3px;    width: 60%;    color: hsl(0, 0%, 100%);    transition: 0.2s;    border-radius: 5px;    cursor: pointer;}.cheat:hover {    background: hsl(0, 0%, 30%);}`;
-    let da = document.createElement("style");
-    da.innerHTML = `body {
+  function b(b) {
+    let c = document.createElement("button");
+    return c.classList.add("cheat"), c.style.font = "arial", c.innerText = b, c
+  }
+  let d = document.createElement("style");
+  d.innerHTML = `details > summary {    cursor: pointer;    transition: 0.15s;    list-style: none;}details > summary:hover {    color: #2596be}details > summary::-webkit-details-marker {    display: none;}details summary ~ * {    animation: sweep .5s ease-in-out;}@keyframes sweep {    0%    {opacity: 0; transform: translateY(-10px)}    100%  {opacity: 1; transform: translateY(0)}}.cheat {    border: none;    background: hsl(0, 0%, 20%);    padding: 5px;    margin: 3px;    width: 60%;    color: hsl(0, 0%, 100%);    transition: 0.2s;    border-radius: 5px;    cursor: pointer;}.cheat:hover {    background: hsl(0, 0%, 30%);}`;
+  let da = document.createElement("style");
+  da.innerHTML = `body {
   background-color: #333;
   display: flex;
   justify-content:center;
@@ -30,56 +30,62 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
         background-position: 4500vh;
     }
 }`;
-    const a = document.createElement("div");
-    a.appendChild(d), a.style.zIndex = "999999999999999999999999999999999", a.className = "menuVirescentOverlord2", a.style.width = "400px", a.style.background = "hsl(0, 0%, 10%)", a.style.borderRadius = "10px", a.style.position = "absolute", a.style.textAlign = "center", a.style.fontFamily = "arial", a.style.color = "white", a.style.overflow = "hidden", a.style.top = "28%", a.style.left = "35%";
-    var e = 0,
-      f = 0,
-      g = 0,
-      h = 0;
-    a.onmousedown = (b = window.event) => {
-      b.preventDefault(), g = b.clientX, h = b.clientY, document.onmouseup = () => {
-        document.onmouseup = null, document.onmousemove = null
-      }, document.onmousemove = b => {
-        b = b || window.event, b.preventDefault(), e = g - b.clientX, f = h - b.clientY, g = b.clientX, h = b.clientY, a.style.top = a.offsetTop - f + "px", a.style.left = a.offsetLeft - e + "px"
-      }
-    };
-    let i = document.createElement("div");
-    a.appendChild(i), i.style.width = "100%", i.style.height = "35px", i.style.paddingTop = "2px", i.style.fontSize = "1.2rem", i.style.textAlign = "center", i.innerHTML = "Moby Max Hack", i.zIndex = "9999", i.style.fontFamily = 'arial black';
-    let t, j = document.createElement("button");
-    i.appendChild(j), j.style.background = "#444444", j.style.height = "45px", j.style.width = "45px", j.style.border = "none", j.style.cursor = "pointer", j.style.position = "absolute", j.style.top = "-10px", j.style.right = "-10px", j.style.fontSize = "1.5rem", j.style.borderRadius = "10px", j.style.fontFamily = "Nunito", j.style.fontWeight = "bolder", j.style.paddingTop = "10px", j.style.paddingRight = "15px", j.innerText = "\u24E7", j.onclick = () => {
-      a.remove(), clearInterval(t)
-    };
-    let k = document.createElement("button");
-    i.appendChild(k), k.style.background = "#444444", k.style.height = "45px", k.style.width = "45px", k.style.border = "none", k.style.cursor = "pointer", k.style.position = "absolute", k.style.top = "-10px", k.style.left = "-10px", k.style.fontSize = "1.5rem", k.style.borderRadius = "10px", k.style.fontFamily = "Nunito", k.style.fontWeight = "bolder", k.style.paddingTop = "10px", k.style.paddingLeft = "15px", k.innerText = "-", k.onclick = () => {
-      l.hidden = !l.hidden;
-    };
-    let l = document.createElement("div"),
-      m = document.createElement("div");
-    l.appendChild(m), a.appendChild(l), m.innerHTML = `<div class="text-rainbow-animation"> Made By Virescent Overlord</div>`, m.style.display = "block", m.style.margin = "10px", m.style.minHeight = "70px";
-    let n = document.createElement("span");
-    m.appendChild(n), document.body.append(a);
-    let o = document.createElement("div");
-    l.appendChild(o), o.style.fontSize = "0.9rem", o.style.paddingBottom = "5px";
-    let p = {
-      global: {
-        "Fill in the blank": () => {
-          for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
-          ans = CurrentProblem.CorrectAnswer;
-          var b = document.createElement("div");
-          b.style.background = "black", b.className = "menuVirescentOverlord1", b.style.textAlign = "center", b.style.transform = "translateX(-50%)", b.style.border = "1px solid white", b.style.padding = "1vmin", b.style.position = "fixed", b.style.left = "50%", b.style.borderRadius = "1vmin", b.style.zIndex = "9999", b.textContent += "\u3164Made By Virescent Overlord, The solution is: " + ans, b.style.color = "white", document.body.appendChild(b)
-        },
-        "Multiple Choice Hack": () => {
-          for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
-          javascript: ans = CurrentProblem.CorrectAnswer;
-          problemType = CurrentProblem.TypeNew;
-          for (var exy = document.getElementsByClassName("mce-menu-item mce-menu-item-preview mce-stack-layout-item mce-last"), did = 0; did < exy.length; did++) exy[did].click();
-          try {
-            let b = document.getElementsByClassName("ms-pbl-manchoice ms-pbl-manchoice-checkbox ms-pbl-manchoice-radio-multistate")[0];
-            b.setAttribute("data-name", ans), b.click()
-          } catch (a) {}
-          for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
-          for (var a = document.getElementsByTagName("input"), c = 0; c < a.length; c++) a[c].setAttribute("data-name", ans);
-          document.getElementsByTagName("input")[0].click(), doNext(event)
+  if (window.location.href.indexOf("TPLab?") > -1) {
+    function submit() {TPlab.onNextClick(event);}
+  } else {
+    function submit() {doNext();}
+  }
+  const a = document.createElement("div");
+  a.appendChild(d), a.style.zIndex = "999999999999999999999999999999999", a.className = "menuVirescentOverlord2", a.style.width = "400px", a.style.background = "hsl(0, 0%, 10%)", a.style.borderRadius = "10px", a.style.position = "absolute", a.style.textAlign = "center", a.style.fontFamily = "arial", a.style.color = "white", a.style.overflow = "hidden", a.style.top = "28%", a.style.left = "35%";
+  var e = 0,
+    f = 0,
+    g = 0,
+    h = 0;
+  a.onmousedown = (b = window.event) => {
+    b.preventDefault(), g = b.clientX, h = b.clientY, document.onmouseup = () => {
+      document.onmouseup = null, document.onmousemove = null
+    }, document.onmousemove = b => {
+      b = b || window.event, b.preventDefault(), e = g - b.clientX, f = h - b.clientY, g = b.clientX, h = b.clientY, a.style.top = a.offsetTop - f + "px", a.style.left = a.offsetLeft - e + "px"
+    }
+  };
+  let i = document.createElement("div");
+  a.appendChild(i), i.style.width = "100%", i.style.height = "35px", i.style.paddingTop = "2px", i.style.fontSize = "1.2rem", i.style.textAlign = "center", i.innerHTML = "Moby Max Hack", i.zIndex = "9999", i.style.fontFamily = 'arial black';
+  let t, j = document.createElement("button");
+  i.appendChild(j), j.style.background = "#444444", j.style.height = "45px", j.style.width = "45px", j.style.border = "none", j.style.cursor = "pointer", j.style.position = "absolute", j.style.top = "-10px", j.style.right = "-10px", j.style.fontSize = "1.5rem", j.style.borderRadius = "10px", j.style.fontFamily = "Nunito", j.style.fontWeight = "bolder", j.style.paddingTop = "10px", j.style.paddingRight = "15px", j.innerText = "\u24E7", j.onclick = () => {
+    a.remove(), clearInterval(t)
+  };
+  let k = document.createElement("button");
+  i.appendChild(k), k.style.background = "#444444", k.style.height = "45px", k.style.width = "45px", k.style.border = "none", k.style.cursor = "pointer", k.style.position = "absolute", k.style.top = "-10px", k.style.left = "-10px", k.style.fontSize = "1.5rem", k.style.borderRadius = "10px", k.style.fontFamily = "Nunito", k.style.fontWeight = "bolder", k.style.paddingTop = "10px", k.style.paddingLeft = "15px", k.innerText = "-", k.onclick = () => {
+    l.hidden = !l.hidden;
+  };
+  let l = document.createElement("div"),
+    m = document.createElement("div");
+  l.appendChild(m), a.appendChild(l), m.innerHTML = `<div class="text-rainbow-animation"> Made By Virescent Overlord</div>`, m.style.display = "block", m.style.margin = "10px", m.style.minHeight = "70px";
+  let n = document.createElement("span");
+  m.appendChild(n), document.body.append(a);
+  let o = document.createElement("div");
+  l.appendChild(o), o.style.fontSize = "0.9rem", o.style.paddingBottom = "5px";
+  let p = {
+    global: {
+      "Fill in the blank": () => {
+        for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
+        ans = CurrentProblem.CorrectAnswer;
+        var b = document.createElement("div");
+        b.style.background = "black", b.className = "menuVirescentOverlord1", b.style.textAlign = "center", b.style.transform = "translateX(-50%)", b.style.border = "1px solid white", b.style.padding = "1vmin", b.style.position = "fixed", b.style.left = "50%", b.style.borderRadius = "1vmin", b.style.zIndex = "9999", b.textContent += "\u3164Made By Virescent Overlord, The solution is: " + ans, b.style.color = "white", document.body.appendChild(b)
+      },
+      "Multiple Choice Hack": () => {
+        for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
+        javascript: ans = CurrentProblem.CorrectAnswer;
+        problemType = CurrentProblem.TypeNew;
+        for (var exy = document.getElementsByClassName("mce-menu-item mce-menu-item-preview mce-stack-layout-item mce-last"), did = 0; did < exy.length; did++) exy[did].click();
+        try {
+          let b = document.getElementsByClassName("ms-pbl-manchoice ms-pbl-manchoice-checkbox ms-pbl-manchoice-radio-multistate")[0];
+          b.setAttribute("data-name", ans), b.click()
+        } catch (a) {}
+        for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
+        for (var a = document.getElementsByTagName("input"), c = 0; c < a.length; c++) a[c].setAttribute("data-name", ans);
+        document.getElementsByTagName("input")[0].click(),
+          submit();
       },
       "Play Games Instead": () => {
         javascript: var dd = document.createElement("iframe");
@@ -151,37 +157,10 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
             document.getElementById("seconds").innerHTML = a(++d % 60), document.getElementById("minutes").innerHTML = a(parseInt(d / 60, 10))
           }, 1e3), m.appendChild(b)
         } else {
-          alert("Must Be in a lesson")
+          alert("You have to be in a lesson that includes a timer")
         }
       },
       "Watch Anime Instead": () => {
-        function targetFunction() {
-          (function() {
-            const exceptOrigins = [
-              'https://disqus.com',
-              document.origin
-            ];
-
-            function remIF(e) {
-              try {
-                var orgn = new URL(e.src || 'http://unknown-src').origin;
-                if (!exceptOrigins.includes(orgn)) {
-                  e.parentElement.removeChild(e);
-                  console.log('REMOVE IFRAME', orgn);
-                }
-              } catch (err) {
-                console.log('REMOVE ERROR', err);
-              }
-            }
-
-            function remIFs() {
-              for (var e of document.getElementsByTagName('iframe')) {
-                remIF(e);
-              }
-            }
-            window.setInterval(remIFs, 500);
-          })();
-        }
         let ani = document.createElement("iframe");
         ani.src = "https://animension.to/";
         ani.id = "yfhdj"
@@ -220,7 +199,6 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
             fa.remove(), ani.remove(), e.remove()
           }
         document.body.appendChild(fa);
-
       }
     }
   }
