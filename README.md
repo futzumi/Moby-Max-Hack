@@ -9,4 +9,4 @@ Go to bookmarklet.js, then press the copy button. Once copied, go to your bookma
 <br />
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 <br />
-Now you can just go to MobyMax and press the bookmark you just adden and it should work.
+Now you can just go to MobyMax and press the bookmark you just added and it should work.
