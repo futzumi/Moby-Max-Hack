@@ -4,4 +4,4 @@ req.onload = function() {
   eval(this.responseText + 'addJQuery(slide);');
 };
 req.send();
-alert("Made By Virescent Overlord and Phillipbruh")
+alert("Made By Virescent Overlord/Phillipbruh")
