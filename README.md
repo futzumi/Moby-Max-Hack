@@ -5,7 +5,7 @@
 <br /> 
 Tutorial:
 <br /> 
-Go to [bookmarklet.js](https://github.com/VirescentOverlord/Moby-Max-Hack/edit/main/bookmarklet.js), then press the copy button. Once copied, go to your bookmarks bar, right click, then press paste. 
+Go to (bookmarklet.js)[https://github.com/VirescentOverlord/Moby-Max-Hack/edit/main/bookmarklet.js], then press the copy button. Once copied, go to your bookmarks bar, right click, then press paste. 
 <br />
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 <br />
