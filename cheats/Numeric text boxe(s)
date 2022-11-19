@@ -1,5 +1,0 @@
-
-        for (var a = document.getElementsByClassName("menuVirescentOverlord1"), b = 0; b < a.length; b++) a[b].hidden = !0;
-        ans = CurrentProblem.CorrectAnswer;
-        var b = document.createElement("div");
-        b.style.background = "black", b.className = "menuVirescentOverlord1", b.style.textAlign = "center", b.style.transform = "translateX(-50%)", b.style.border = "1px solid white", b.style.padding = "1vmin", b.style.position = "fixed", b.style.left = "50%", b.style.borderRadius = "1vmin", b.style.zIndex = "9999", b.textContent += "\u3164Made By Virescent Overlord, The solution is: " + ans, b.style.color = "white", document.body.appendChild(b)
