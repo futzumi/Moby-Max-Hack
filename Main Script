@@ -160,7 +160,7 @@ for (var e = document.getElementsByClassName("menuVirescentOverlord2"), d = 0; d
           alert("You have to be in a lesson that includes a timer")
         }
       },
-      "Watch Anime Instead": () => {
+      "Watch Anime": () => {
         let ani = document.createElement("iframe");
         ani.src = "https://animension.to/";
         ani.id = "yfhdj"
