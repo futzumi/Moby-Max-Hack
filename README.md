@@ -1,4 +1,4 @@
-# Moby Max Hack
+## Moby Max Hack
 <img src="img.png" alt="Img" title="Prev">
 ## Tutorial
 - copy the contents of bookmarklet.js and paste it into your bookmarks tab
