@@ -8,7 +8,7 @@ function updateClockValues()
 {
 	var actual;
 	var focused;
-  let hacked_time = prompt("How much Time?");
+  let hacked_time = 9999999;
 	if ( typeof(focusTimeObj) == 'object' )
 	{
 		actual = hacked_time;
