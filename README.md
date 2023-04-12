@@ -18,4 +18,5 @@
 ## Goals
 - New Prompt Box
 - Focus Time Hack Update
+- Linking my github to my username on the menu
 - Drop some suggestions because with 3.0, this hack is OP
