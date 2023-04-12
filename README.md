@@ -17,4 +17,4 @@
 
 ## Goals
 - New Prompt Box
-- Expanding to more sections of Moby Max
+- Drop some suggestions because with 3.0, this hack is OP
