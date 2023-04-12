@@ -17,4 +17,5 @@
 
 ## Goals
 - New Prompt Box
+- Focus Time Hack Update
 - Drop some suggestions because with 3.0, this hack is OP
