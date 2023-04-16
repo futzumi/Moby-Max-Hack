@@ -1,5 +1,6 @@
 ## Tutorial
 - copy the contents of bookmarklet.js and paste it into your bookmarks tab
+- Right click to show the hack menu
 ## Issues & Bugs
 - Check for any mistakes you may have made 
 - If you are certain it is a problem with the code, make an issue
@@ -10,13 +11,11 @@
 - I am not responsible for the actions of the people who use this to boost themselves economically, as i don't even use them in that way
 <img src="img.png" alt="Img" title="Prev">
 
-## V 3.0 REALEASED!!!
+## V 3.5 REALEASED!!!
 - SKIP LESSON :)
-- Removed multiple choice and inputbox hack because of patch
-- New bookmarklet method
+- Get Answer
+- New UI
 
 
 ## Goals
-- New Prompt Box
-- Focus Time Hack Update
-- Drop some suggestions because with 3.0, this hack is OP
+- I need Ideas
