@@ -13,8 +13,9 @@
 
 ## V 3.5 REALEASED!!!
 - SKIP LESSON :)
-- Get Answer
+- Get Answer Expansion
 - New UI
+- Many Vulnerabilities Patched with new UI
 
 
 ## Goals
