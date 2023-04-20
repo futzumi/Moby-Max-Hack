@@ -1,6 +1,5 @@
 ## Tutorial
 - copy the contents of bookmarklet.js and paste it into your bookmarks tab
-- Right click to show the hack menu
 ## Issues & Bugs
 - Check for any mistakes you may have made 
 - If you are certain it is a problem with the code, make an issue
@@ -11,11 +10,11 @@
 - I am not responsible for the actions of the people who use this to boost themselves economically, as i don't even use them in that way
 <img src="img.png" alt="Img" title="Prev">
 
-## V 3.5 REALEASED!!!
-- SKIP LESSON :)
+## V 4.0 REALEASED!!!
+- SKIP LESSON Expansion
 - Get Answer Expansion
-- New UI
-- Many Vulnerabilities Patched with new UI
+- Reverted UI
+- Whitelisting Moby Max Admins
 
 
 ## Goals
