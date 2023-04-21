@@ -11,6 +11,7 @@
 <img src="img.png" alt="Img" title="Prev">
 
 ## V 4.0 REALEASED!!!
+- Me and Phillipbruh are working on this together now
 - SKIP LESSON Expansion
 - Get Answer Expansion
 - Reverted UI
