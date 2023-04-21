@@ -10,12 +10,11 @@
 - I am not responsible for the actions of the people who use this to boost themselves economically, as i don't even use them in that way
 <img src="img.png" alt="Img" title="Prev">
 
-## V 4.0 REALEASED!!!
+## V 4.1 REALEASED - Patch Notes
 - Me and Phillipbruh are working on this together now
-- SKIP LESSON Expansion
-- Get Answer Expansion
-- Reverted UI
-- Whitelisting Moby Max Admins
+- Daily Focus time hack released. Found by Phillipbruh, Mainly coded by me
+- Get answer Multiple choice questions get skipped
+- Even More Whitelisting
 
 
 ## Goals
