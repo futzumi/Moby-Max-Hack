@@ -10,10 +10,10 @@
 - I am not responsible for the actions of the people who use this to boost themselves economically, as i don't even use them in that way
 <img src="img.png" alt="Img" title="Prev">
 
-## V 4.1 REALEASED - Patch Notes
+## V 5.0 REALEASED - Patch Notes
 - Me and Phillipbruh are working on this together now
-- Daily Focus time hack released. Found by Phillipbruh, Mainly coded by me
-- Get answer Multiple choice questions get skipped
+- Alot of features
+- new and sucky UI
 - Even More Whitelisting
 
 
