@@ -7,6 +7,7 @@
 <img src="Timer PRV.png" alt="Img">
 <br>
 - When you click this, check time summery and it should have added an hour
+<br>
 ## Issues & Bugs
 - Check for any mistakes you may have made 
 - If you are certain it is a problem with the code, create an issue
