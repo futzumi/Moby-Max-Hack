@@ -1,5 +1,5 @@
 ## HELP ME
-- I'm no longer able to continue making hacks for Moby Max. YOU CAN HELP ME. If you desperetly need me to continue hacks for Moby Max, contact me on snapchat: Futzumi.
+- I'm no longer able to continue making hacks for Moby Max. YOU CAN HELP ME. If you desperetly need me to continue hacks for Moby Max, contact me on discord.
 ## Issues & Bugs
 - Check for any mistakes you may have made 
 - If you are certain it is a problem with the code, create an issue
